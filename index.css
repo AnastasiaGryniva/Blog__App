@@ -1,0 +1,85 @@
+h1 {
+    margin: 20px 250px ;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(10, 10, 157);
+}
+
+.row {
+    margin: 40px; 
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.title {
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.post-title-input {
+    margin-bottom: 5px;
+    display: block;
+    width: 400px;
+    height: 30px;
+}
+
+.post-text-input {
+    margin-bottom: 5px;
+    display: block;
+    width: 400px;
+    height: 200px;
+}
+
+.new-post-btn {
+    width: 400px;
+    height: 40px;
+    background-color:  rgb(10, 10, 157);
+    color: white;
+    border: 0;
+}
+
+.none-post-btn {
+    background-color: gray;
+    
+}
+
+.validation {
+    margin-top: 20px;
+    color: red;
+}
+
+.validation__hidden {
+    display: none;
+}
+
+.post {
+    padding-bottom: 30px;
+}
+
+.post__title {
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.post__text {
+    font-size: 20px;
+}
+
+.post__date {
+    padding-bottom: 5px;
+    color:  rgb(10, 10, 157);
+}
+
+.remainsTitle {
+    padding-bottom: 20px;
+    color:  rgb(10, 10, 157);
+    
+}
+
+.remainsText {
+    padding-bottom: 20px;
+    color:  rgb(10, 10, 157);
+}
